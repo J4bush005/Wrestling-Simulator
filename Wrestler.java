@@ -2,6 +2,7 @@ public class Wrestler {
   int height;
   int weight;
   int id;
+  int ability;
   boolean isHeavy = false;
   boolean isBruiser = false;
   boolean isAcrobat = false;
