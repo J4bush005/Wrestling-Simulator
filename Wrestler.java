@@ -133,6 +133,21 @@ public class Wrestler {
         System.out.println("Wrestler " + id + " is a Lightweight");
       }
 }
+   public void assignScore() { //needs to be debugged
+    if((isHeavy = true) && (weight >= 700)) {
+      ability = (int)(Math.random() * 100);
+      System.out.println("Ability score is " + ability + ". \n");
+    } else if((isHeavy = true) && (weight < 700) && (weight >= 500)) {
+      ability = (int)(Math.random() * 75);
+      System.out.println("Ability score is " + ability + ". \n");
+    } else if((isHeavy = true) && (weight < 500) && (weight >= 300)) {
+      ability = (int)(Math.random() * 50);
+      System.out.println("Ability score is " + ability + ". \n");
+    } else if((isHeavy = true) && (weight < 300)) {
+      ability = (int)(Math.random() * 25);
+      System.out.println("Ability score is " + ability + ". \n");
+    }
+  }
 }
    
    
